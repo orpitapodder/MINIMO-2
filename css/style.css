@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3, h4, h5, h6, p, ul{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+width: 90%;
+
+/* background-color: brown; */
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+
+margin: 30px auto;
+
+align-items: center;
+}
+.logo{
+
+width: 20%;
+}
+.logo img{
+
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: right;
+}
+nav ul li{
+
+margin-left: 50px;
+}
+nav ul li a{
+
+color: #626262;
+
+text-decoration: none;
+
+text-transform: uppercase;
+
+font-family: 'Playfair Display', serif;
+}
+
+.banner{
+width: 90%;
+margin: auto;
+}
+.banner img{
+width: 100%;
+}
+
+.weekend{
+width: 80%;
+margin: auto;
+padding: 100px 0;
+}
+
+.weekend h4{
+color: #b4ad9e;
+text-transform: uppercase; 
+margin-bottom: 15px; 
+font-weight: 400;
+font-size: 15px;
+font-family: 'Ubuntu', sans-serif;  
+}
+
+.weekend h1{
+color: #626262;    
+font-size: 35px;
+margin-bottom: 15px; 
+font-weight: 400; 
+font-family: 'Playfair Display', serif;  
+}
+
+.weekend p{
+color: #626262;    
+margin-bottom: 15px;
+font-family: 'Playfair Display', serif;
+}
+
+.weekend a{
+text-decoration: none;
+color: #b4ad9e; text-transform: uppercase;
+font-size: 15px;
+font-family: 'Ubuntu', sans-serif;   
+}
+
+.post_section{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.single_post{width: 47%;margin-bottom: 50px;}
+.single_post h1{
+
+color: #626262;
+
+font-size: 35px;
+
+margin-bottom: 15px;
+
+font-weight: 400;
+
+font-family: 'Playfair Display', serif;
+}
+.single_post h4{
+color: #b4ad9e;
+text-transform: uppercase;
+margin-bottom: 15px;
+font-weight: 400;
+font-size: 15px;
+font-family: 'Ubuntu', sans-serif;
+margin-top: 20px;
+}
+.single_post p{
+
+color: #626262;
+
+margin-bottom: 15px;
+
+font-family: 'Playfair Display', serif;
+}
+.single_post img{
+    
+width: 100%;
+}
+
+.signup_section{
+
+background-color: #f0f0f0;
+
+padding: 60px 0;
+margin-bottom: 70px;
+
+}
+.signup_content{
+
+width: 29%;
+
+margin: auto;
+
+text-align: center;
+}
+.signup_content h1{
+
+color: #626262;
+
+font-size: 30px;
+
+margin-bottom: 15px;
+
+font-weight: 400;
+
+font-family: 'Playfair Display', serif;
+
+text-transform: capitalize;
+}
+.signup_content input{
+
+border: none;
+
+border-bottom: 1px solid #333;
+
+background: transparent;
+
+width: 100%;
+
+margin-top: 50px;
+color: #626262;
+font-family: 'Playfair Display', serif;
+padding-bottom: 5px;
+}
+.signup_content input:focus{
+    outline: none;
+}
+.signup_content input::placeholder{
+color: #626262;
+font-family: 'Playfair Display', serif;
+padding: 5px 5px 0;    
+}
+.loadmore{
+
+text-align: center;
+
+padding: 100px 0px 150px;
+}
+.loadmore button{
+     
+background: transparent;
+     
+padding: 15px 25px;
+     
+border-color: #626262;
+     
+font-size: 18px;
+font-family: 'Playfair Display', serif;
+}
+
+footer{
+
+background: #f0f0f0;
+
+padding: 30px 0;
+}
+footer .footer_wrapper{
+
+width: 80%;
+
+margin: auto;
+
+display: flex;
+
+justify-content: space-between;
+}
+.terms{
+}
+.terms ul{
+list-style: none;display: flex;
+}
+.terms ul li{
+margin-right: 15px;
+}
+.terms ul li a{
+color: #626262;
+text-decoration: none;
+text-transform: capitalize;
+}
+.social{
+
+}
+.social ul{
+
+list-style: none;
+
+display: flex;
+}
+.social ul li{
+    
+text-transform: capitalize;
+    
+color: #626262;
+    
+margin-left: 15px;
+}
+.social ul li a{
+    
+text-transform: capitalize;
+    
+color: #626262;
+    
+text-decoration: none;
+}
+.form{
+
+position: relative;
+}
+.form img{
+
+position: absolute;
+
+right: 0;
+
+bottom: 5px;
+}
